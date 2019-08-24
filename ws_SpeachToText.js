@@ -3,8 +3,6 @@ var SpeechToText = require('ibm-watson/speech-to-text/v1');
 var fs = require('fs');
 
 var textToSpeech = new SpeechToText({
-    url: 'https://stream.watsonplatform.net/speech-to-text/api',
-    iam_apikey: 'XjwVvmccMQwTg-QtSvSfagP5EQ8qQ67pCFR6jnSj8j97',
     disable_ssl_verification: true
 });
 
